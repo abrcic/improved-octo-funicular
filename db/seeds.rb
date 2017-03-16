@@ -8,48 +8,50 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create(title: 'Rails, Angular, Postgres, and Bootstrap',
+Product.create(title: 'NIssan Skyline GTR R32',
   description:
     %{<p>
-      <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>
-      As a Rails developer, you care about user experience and performance,
-      but you also want simple and maintainable code. Achieve all that by
-      embracing the full stack of web development, from styling with
-      Bootstrap, building an interactive user interface with AngularJS, to
-      storing data quickly and reliably in PostgreSQL. Take a holistic view of
-      full-stack development to create usable, high-performing applications,
-      and learn to use these technologies effectively in a Ruby on Rails
-      environment.
+     Powerful,Fast, and over all great quality car The first cars named 
+     "Skyline GT-R" were produced between 1969 and 1972 under the model 
+     code KPGC10, and enjoyed legendary success in local Japanese touring car
+     racing. This model was followed by a brief production run of second-generation
+     cars, under model code KPGC110, in 1973. After a 16-year hiatus, the GT-R name was 
+     revived in 1989 as the BNRR32 ("R32") Skyline GT-R.
       </p>},
-  image_url: 'dcbang.jpg',    
-  price: 45.00)
+  image_url: 'r32_GTR.jpg',    
+  price: 17000)
 # . . .
-Product.create(title: 'Seven Mobile Apps in Seven Weeks',
+Product.create(title: 'NIssan Skyline GTR R33',
   description:
     %{<p>
-      <em>Native Apps, Multiple Platforms</em>
-      Answer the question “Can we build this for ALL the devices?” with a
-      resounding YES. This book will help you get there with a real-world
-      introduction to seven platforms, whether you’re new to mobile or an
-      experienced developer needing to expand your options. Plus, you’ll find
-      out which cross-platform solution makes the most sense for your needs.
+      Fast, Powerful, Easy to drive The Skyline GT-R became the
+      flagship of Nissan performance, showcasing many advanced
+      technologies including the ATTESA E-TS AWD system and the
+      Super-HICAS four-wheel steering. Today, the car is popular
+      for import drag racing, circuit track, time attack and events
+      hosted by tuning magazines. Production of the Skyline GT-R
+      ended in August 2002. The car was replaced by the Nissan GT-R,
+      an all-new vehicle no longer based on the Skyline.
       </p>},
   image_url: '7apps.jpg',
-  price: 26.00)
+  price: 21000)
 # . . .
 
-Product.create(title: 'Ruby Performance Optimization',
+Product.create(title: 'NIssan Skyline GTR R34',
   description:
     %{<p>
-      <em>Why Ruby Is Slow, and How to Fix It</em> 
-      You don’t have to accept slow Ruby or Rails performance. In this
-      comprehensive guide to Ruby optimization, you’ll learn how to write
-      faster Ruby code—but that’s just the beginning. See exactly what makes
-      Ruby and Rails code slow, and how to fix it. Alex Dymo will guide you
-      through perils of memory and CPU optimization, profiling, measuring,
-      performance testing, garbage collection, and tuning. You’ll find that
-      all those “hard” things aren’t so difficult after all, and your code
-      will run orders of magnitude faster.
+      Powerful performance, Phenomenal Control, Awesome Car
+      The Skyline GT-R was never manufactured outside Japan,
+      and the sole export markets were Hong Kong, Australia
+      and New Zealand, in 1991, and the UK (in 1997, thanks
+      to the Single Vehicle Approval scheme) as used Japanese
+      imports. Despite this, the car has become an iconic sports
+      car, including in countries from the Western World mainly
+      the United Kingdom, Australia, New Zealand, South Africa,
+      Ireland, Canada, and the United States. It has become notable
+      through pop culture such as The Fast and the Furious series,
+      Initial D, Shakotan Boogie, Wangan Midnight, Need For Speed
+      series, Driving Emotion Type-S, and Gran Turismo series.
       </p>},
   image_url: 'adrpo.jpg',
-  price: 46.00)
+  price: 25000)
